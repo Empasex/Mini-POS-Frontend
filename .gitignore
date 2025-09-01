@@ -1,24 +1,53 @@
+# Node / Vite
+node_modules/
+dist/
+dist-ssr/
+build/
+.vite/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
-yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+*.egg-info/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Ignore backend entirely for frontend repo
+backend/
+
+# Git metadata copies / big mirror dirs
+repo-mirror.git/
+verify-mirror.git/
+
+# Misc
+coverage/
+coverage.*
+*.local
+*.tmp
+*.swp
+*.swo
+.vs/
