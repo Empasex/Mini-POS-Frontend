@@ -1,4 +1,4 @@
-import type { Product, Sale, Metric } from "../types";
+import type { Product, Metric } from "../types";
 
 export const productosMock: Product[] = [
   { id: 1, nombre: "Gaseosa Cola 500ml", precioVenta: 2.5, costoUnitario: 1.2, stock: 34 },
